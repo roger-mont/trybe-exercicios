@@ -1,0 +1,58 @@
+body {
+    background-color: lightslategrey;
+}
+
+header h1 {
+    text-align: center;
+    background-color:cornflowerblue;
+    border: 15px solid black;
+    padding: 10px;
+
+}
+
+.links {
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color:cornflowerblue;
+    border: 10px solid black;
+    padding: 5px;
+}
+
+
+p {
+    max-width: 70%;
+}
+
+.header-article {
+    background-color:cornflowerblue;
+    border: 15px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.taxonomia {
+    background-color:slategray;
+    display: inline-block;
+    min-width: 700px;
+}
+
+.fato1 {
+ max-width: 70%;
+ line-height: 15px;
+}
+
+.fato2 {
+    min-height: 300px;
+}
+
+.fato1-img, .fato2-img {
+    width: 450px;
+    float: left;
+    margin-right: 10px;
+}
+
+.direita {
+    display: inline-block;
+    margin-left: 320px;
+    text-align: center;
+}
