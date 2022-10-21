@@ -8,3 +8,7 @@ console.log(numbers[0]); console.log(numbers[1]); console.log(numbers[2]); conso
 
 let soma = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7] + numbers[8] + numbers[9];
 console.log(soma);
+
+// terceiro exercicio //
+
+console.log(soma / 10);
