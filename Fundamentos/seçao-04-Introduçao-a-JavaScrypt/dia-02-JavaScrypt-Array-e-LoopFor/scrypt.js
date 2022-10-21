@@ -64,10 +64,17 @@ console.log(menorValor);
 
 // setimo exercicio //
 
-let array = [];
+let contagem = [];
 for (let index = 0; index <= 25; index++) {
-  array.push(index)
+  contagem.push(index)
   
 }
 
-console.log(array)
+console.log(contagem);
+
+// oitavo exercicio //
+
+for (let index = 0; index < contagem.length; index++) {
+  console.log(contagem[index] / 2);
+  
+}
