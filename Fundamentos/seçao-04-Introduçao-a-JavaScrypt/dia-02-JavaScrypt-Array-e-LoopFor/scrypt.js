@@ -53,11 +53,21 @@ if (verificador > 0) {
 
 // sexto exercicio //
 
-let menorValor = 100
+let menorValor = 100;
 for (let index = 0; index < numbers.length; index++) {
   if (numbers[index] < menorValor) {
       menorValor = numbers[index]
   }
   
 }
-console.log(menorValor)
+console.log(menorValor);
+
+// setimo exercicio //
+
+let array = [];
+for (let index = 0; index <= 25; index++) {
+  array.push(index)
+  
+}
+
+console.log(array)
