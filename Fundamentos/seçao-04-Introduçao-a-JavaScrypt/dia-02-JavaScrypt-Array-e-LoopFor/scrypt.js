@@ -50,3 +50,14 @@ if (verificador > 0) {
 }   else {
   console.log('Nenhum valor impar encontrado');
 }
+
+// sexto exercicio //
+
+let menorValor = 100
+for (let index = 0; index < numbers.length; index++) {
+  if (numbers[index] < menorValor) {
+      menorValor = numbers[index]
+  }
+  
+}
+console.log(menorValor)
