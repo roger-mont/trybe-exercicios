@@ -33,3 +33,20 @@ for (let index = 0; index < numbers.length; index++) {
 }
 
 console.log(maiorValor);
+
+// sexto exercicio //
+
+let verificador = 0;
+
+for (let index = 0; index < numbers.length; index++) {
+  if (numbers[index] % 2 > 0) {
+    verificador++
+  }
+  
+}
+
+if (verificador > 0) {
+  console.log('Existem ' +verificador+ ' numeros impares no array');
+}   else {
+  console.log('Nenhum valor impar encontrado');
+}
