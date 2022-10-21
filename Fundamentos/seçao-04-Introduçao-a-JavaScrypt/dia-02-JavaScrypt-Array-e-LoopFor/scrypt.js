@@ -12,3 +12,11 @@ console.log(soma);
 // terceiro exercicio //
 
 console.log(soma / 10);
+
+// quarto exercicio //
+
+if (soma / 10 > 20) {
+  console.log('Valor maior que 20')
+} else {
+  console.log('Valor menor ou igual a 20');
+}
