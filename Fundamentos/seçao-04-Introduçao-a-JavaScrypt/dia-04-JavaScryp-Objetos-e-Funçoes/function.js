@@ -15,22 +15,38 @@ verificaPalindrome('arara')
 
 // segundo requisito //
 
-let numbers = [2, 3, 6, 7, 10, 1];
+function maiorValor (numbers) {
 let maiorNumero = 0;
 for (let i= 0; i <= numbers.length; i++) {
   if (numbers[i] > maiorNumero) {
-    maiorNumero = i
+    maiorNumero = i; 
   }
+} console.log(maiorNumero);
 }
-console.log(maiorNumero);
+maiorValor([2, 3, 6, 7, 10, 1])
 
 // terceiro requisito //
 
-let numbers2 = [2, 4, 6, 7, 10, 0, -3];
+function menorValor (numbers2) {
 let menorNumero = 100000;
-for (let i= 0; i <= numbers.length; i++) {
+for (let i= 0; i <= numbers2.length; i++) {
   if (numbers2[i] < menorNumero) {
     menorNumero = i
   }
+} console.log(menorNumero)
 }
-console.log(menorNumero);
+menorValor([2, 4, 6, 7, 10, 0, -3])
+
+// quarto requisito //
+function nomes (names) {
+  
+}
+
+
+
+
+
+
+let names = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+
+
