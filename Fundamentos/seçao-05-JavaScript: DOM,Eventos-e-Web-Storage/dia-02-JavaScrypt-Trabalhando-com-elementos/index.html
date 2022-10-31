@@ -57,10 +57,14 @@
   </head>
   <body>
     <script>
-  let text = document.querySelector('body');
+  let body = document.querySelector('body');
   let exercise = document.createElement('h1')
   exercise.innerText = 'Exercicio - JavaScript DOM'
-  text.appendChild(exercise)
+  body.appendChild(exercise)
+
+  let main = document.createElement('main')
+  main.className = 'main-content'
+  body.appendChild(main)
     </script>
   </body>
 </html>
