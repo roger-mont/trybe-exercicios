@@ -65,6 +65,16 @@
   let main = document.createElement('main')
   main.className = 'main-content'
   body.appendChild(main)
+
+  let mainPai = document.querySelector('main')
+  let secao = document.createElement('section')
+  secao.className = 'center-content'
+  mainPai.appendChild(secao)
+
+  let secaoPai = document.querySelector('section')
+  let paragrafo = document.createElement('p')
+  paragrafo.innerText = 'loremIpsum'
+  secaoPai.appendChild(paragrafo)
     </script>
   </body>
 </html>
