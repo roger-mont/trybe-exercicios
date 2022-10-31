@@ -89,6 +89,16 @@
   imagem.src = 'https://picsum.photos/200'
   imagem.className = 'small-image'
   esquerdaPai.appendChild(imagem)
+
+  let direitaPai = document.querySelector('.right-content')
+  let lista = document.createElement('ul')
+  let numeros = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez' ]
+  for (let i = 0; i < numeros.length ; i++) {
+    let listaItens = document.createElement('li')
+    listaItens.innerText = numeros[i]
+    lista.appendChild(listaItens)
+  }
+  direitaPai.appendChild(lista)
     </script>
   </body>
 </html>
