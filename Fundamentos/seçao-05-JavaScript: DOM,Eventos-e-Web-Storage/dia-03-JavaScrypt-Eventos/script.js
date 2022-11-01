@@ -46,3 +46,19 @@ const button = (Feriados) => {
   botaoContainer.appendChild(botao)
 }
 console.log(button('Feriados'))
+
+// Parte 3 //
+
+let botaoFeriado = document.getElementById('btn-holiday')
+
+let diasFeriados = document.getElementsByClassName('holiday')
+
+const mudaCorHoliday = () => {
+  for (let i = 0; i<diasFeriados.length; i++) {
+    if (diasFeriados[i].className.includes('holiday')) {
+      diasFeriados[i].style.backgroundColor = 'blue';
+    } 
+  }
+}
+
+botaoFeriado.addEventListener('click', mudaCorHoliday) // evento chama função
