@@ -32,6 +32,17 @@ for (let i =0 ; i < testeTamanho ; i++) {
     if (testeDias[i].innerText.includes('24') || testeDias[i].innerText.includes('25') || testeDias[i].innerText.includes('31')){
     testeDias[i].className = 'day holiday' 
 } else if (testeDias[i].innerText.includes('4') || testeDias[i].innerText.includes('11') || testeDias[i].innerText.includes('18') || testeDias[i].innerText.includes('25')){
-  testeDias[i].className += 'day friday'
+  testeDias[i].className = 'day friday'
 } 
 }
+
+// Parte 2 //
+
+const button = (Feriados) => {
+  let botaoContainer = document.getElementsByClassName('buttons-container')[0];
+  let botao = document.createElement('button')
+  botao.id = 'btn-holiday'
+  botao.innerText = (Feriados)
+  botaoContainer.appendChild(botao)
+}
+console.log(button('Feriados'))
